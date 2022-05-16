@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>PlexTraktSync</Name>
+  <Repository>ghcr.io/taxel/plextraktsync:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/CrK5eteSjK</Support>
+  <Project>https://github.com/Taxel/PlexTraktSync</Project>
+  <Overview>Cette apps permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
+&#xD;
+Attention, la clé API n'est pas stocker de manière sécurisée avec ce container.&#xD;
+&#xD;
+- Ouvrir la console de votre container PlextrackSync .&#xD;
+- Taper 'python3 -m plextraktsync' (sans les quotes) pour lancer le script.</Overview>
+  <Category>Tools: MediaApp:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/superboki/ressources/main/plex_trakt_sync/plex_trakt_sync.png</Icon>
+  <ExtraParams>-it</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1638501192</DateInstalled>
+  <DonateText>Pour soutenir le chaîne</DonateText>
+  <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
+  <Description>Cette apps permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
+&#xD;
+Attention, la clé API n'est pas stocker de manière sécurisée avec ce container.&#xD;
+&#xD;
+- Ouvrir la console de votre container PlextrackSync .&#xD;
+- Taper 'python3 -m plextraktsync' (sans les quotes) pour lancer le script.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plextraktsync</HostDir>
+      <ContainerDir>/app/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/plextraktsync" Mode="rw" Description="Chemin du container : /app/config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/plextraktsync</Config>
+</Container>
