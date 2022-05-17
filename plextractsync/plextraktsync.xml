@@ -9,9 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/CrK5eteSjK</Support>
   <Project>https://github.com/Taxel/PlexTraktSync</Project>
-  <Overview>Cette apps permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
+  <Overview>Cette app permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
 &#xD;
-Attention, la clé API n'est pas stocker de manière sécurisée avec ce container.&#xD;
+Attention, la clé API n'est pas stockée de manière sécurisée avec ce container.&#xD;
 &#xD;
 - Ouvrir la console de votre container PlextrackSync .&#xD;
 - Taper 'python3 -m plextraktsync' (sans les quotes) pour lancer le script.</Overview>
@@ -23,11 +23,11 @@ Attention, la clé API n'est pas stocker de manière sécurisée avec ce contain
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1638501192</DateInstalled>
-  <DonateText>Pour soutenir le chaîne</DonateText>
+  <DonateText>Pour soutenir la chaîne</DonateText>
   <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
-  <Description>Cette apps permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
+  <Description>Cette app permet de synchroniser le contenu de votre bibliotheque plex (pas de plexpass obligatoire) avec le site trakt.tv .&#xD;
 &#xD;
-Attention, la clé API n'est pas stocker de manière sécurisée avec ce container.&#xD;
+Attention, la clé API n'est pas stockée de manière sécurisée avec ce container.&#xD;
 &#xD;
 - Ouvrir la console de votre container PlextrackSync .&#xD;
 - Taper 'python3 -m plextraktsync' (sans les quotes) pour lancer le script.</Description>
