@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>plex-auto-languages</Name>
   <Repository>https://github.com/RemiRigal/Plex-Auto-Languages:latest</Repository>
-  <Registry>https://hub.docker.com/r/remirigal/plex-auto-languages<Registry/>
+  <Registry>https://hub.docker.com/r/remirigal/plex-auto-languages</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
