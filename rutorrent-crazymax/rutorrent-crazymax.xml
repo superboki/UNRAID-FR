@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>rutorrent-crazymax</Name>
+  <Repository>crazymax/rtorrent-rutorrent</Repository>
+  <Registry>https://github.com/crazy-max/docker-rtorrent-rutorrent</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Si vous &#xEA;tes sujets au bug connu de la 6.10.1 concernant les droits utilisateurs :&#xD;
+Apr&#xE8;s l'installation du container :&#xD;
+&#xD;
+- ouvrir un Terminal depuis UNRAID :&#xD;
+- executer les commandes suivantes &#xD;
+&#xD;
+chmod -R 0775 /mnt/user/appdata/rutorrent-crazymax&#xD;
+&#xD;
+chown -R 99:100 /mnt/user/appdata/rutorrent-crazymax&#xD;
+&#xD;
+Apr&#xE8;s quoi vous pourrez modifier la variable PORT FORWARD.&#xD;
+&#xD;
+-------------------------------------------------------------------------&#xD;
+&#xD;
+Pour ajouter un mot de passe sans passer par nginx proxy manager &#xD;
+&#xD;
+- clic droit sur le container rutorrent -&amp;gt; Console&#xD;
+- Taper la ligne ci-dessous&#xD;
+&#xD;
+htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#xD;
+&#xD;
+- Remplacer  par votre pseudo et  votre mot de passe &#xD;
+- Red&#xE9;marrer le container&#xD;
+&#xD;
+</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/superboki/ressources/blob/main/rutorrent-crazymax/rutorrent-crazymax.jpg?raw=true</Icon>
+  <ExtraParams>--ulimit nproc=65535 --ulimit nofile=32000:40000</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1653659426</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Dossier de telechargement" Target="/downloads" Default="/mnt/user/downloads" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads</Config>
+  <Config Name="Port allou&#xE9; au service DHT (si besoin)" Target="6881" Default="6881" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">6881</Config>
+  <Config Name="Webui de Rutorrent" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8095</Config>
+  <Config Name="Port Forward" Target="RT_INC_PORT" Default="50000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">51849</Config>
+  <Config Name="Port Forward (doit &#xEA;tre identique &#xE0; la valeur pr&#xE9;cedente)" Target="51849" Default="51849" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">51849</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
+  <Config Name="AppData Config Path" Target="/data" Default="/mnt/user/appdata/rutorrent-crazymax" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/rutorrent-crazymax/data</Config>
+  <Config Name="stockage du htpassword" Target="/passwd" Default="/mnt/user/appdata/ruttorent-crazymax/passwd" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/ruttorent-crazymax/passwd</Config>
+</Container>
