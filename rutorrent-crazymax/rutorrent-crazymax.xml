@@ -54,5 +54,5 @@ htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
   <Config Name="AppData Config Path" Target="/data" Default="/mnt/user/appdata/rutorrent-crazymax" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/rutorrent-crazymax/data</Config>
-  <Config Name="stockage du htpassword" Target="/passwd" Default="/mnt/user/appdata/rutorrent-crazymax/passwd" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/ruttorent-crazymax/passwd</Config>
+  <Config Name="stockage du htpassword" Target="/passwd" Default="/mnt/user/appdata/rutorrent-crazymax/passwd" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/rutorrent-crazymax/passwd</Config>
 </Container>
