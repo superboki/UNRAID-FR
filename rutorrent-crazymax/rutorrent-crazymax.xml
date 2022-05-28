@@ -43,8 +43,8 @@ htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1653659426</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Pour soutenir la chaîne</DonateText>
+  <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
   <Requires/>
   <Config Name="Dossier de telechargement" Target="/downloads" Default="/mnt/user/downloads" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads</Config>
   <Config Name="Port allou&#xE9; au service DHT (si besoin)" Target="6881" Default="6881" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">6881</Config>
