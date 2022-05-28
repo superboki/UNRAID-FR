@@ -49,8 +49,8 @@ htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#
   <Config Name="Dossier de telechargement" Target="/downloads" Default="/mnt/user/downloads" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/downloads</Config>
   <Config Name="Port allou&#xE9; au service DHT (si besoin)" Target="6881" Default="6881" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">6881</Config>
   <Config Name="Webui de Rutorrent" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8095</Config>
-  <Config Name="Port Forward" Target="RT_INC_PORT" Default="50000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">51849</Config>
-  <Config Name="Port Forward (doit &#xEA;tre identique &#xE0; la valeur pr&#xE9;cedente)" Target="50000" Default="50000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">51849</Config>
+  <Config Name="Port Forward" Target="RT_INC_PORT" Default="50000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">50000</Config>
+  <Config Name="Port Forward (doit &#xEA;tre identique &#xE0; la valeur pr&#xE9;cedente)" Target="50000" Default="50000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">50000</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
   <Config Name="AppData Config Path" Target="/data" Default="/mnt/user/appdata/rutorrent-crazymax" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/rutorrent-crazymax/data</Config>
