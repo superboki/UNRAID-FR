@@ -1,54 +1,37 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>plex-auto-languages</Name>
-  <Repository>https://github.com/RemiRigal/Plex-Auto-Languages:latest</Repository>
+  <Repository>remirigal/plex-auto-languages</Repository>
   <Registry>https://hub.docker.com/r/remirigal/plex-auto-languages</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/CrK5eteSjK</Support>
-  <Project>https://github.com/RemiRigal/Plex-Auto-Languages</Project>
-  <Overview>Cette application vous permet d'avoir une expérience de type Netflix en mettant à jour automatiquement la langue de vos épisodes Plex TV Show en fonction de la langue actuelle que vous utilisez sans perturber vos préférences linguistiques existantes .&#xD;
+  <Support/>
+  <Project/>
+  <Overview>&#xD;
+Mes vid&#xE9;os sur unraid disponibles sur : https://www.youtube.com/superboki&#xD;
 &#xD;
-Vous voulez regarder Squid Game en coréen avec sous-titres anglais ? &#xD;
-Définissez la langue du premier épisode et n'y pensez plus pour le reste de la série.&#xD;
+Cette application vous permet d'avoir une exp&#xE9;rience de type Netflix en mettant &#xE0; jour automatiquement la langue de vos &#xE9;pisodes Plex TV Show en fonction de la langue actuelle que vous utilisez sans perturber vos pr&#xE9;f&#xE9;rences linguistiques existantes &#xD;
 &#xD;
-Vous avez plusieurs utilisateurs gérés et partagés avec des préférences différentes ? &#xD;
-Les pistes appropriées seront sélectionnées automatiquement et indépendamment pour chaque utilisateur. .&#xD;
-
-</Overview>
+Vous voulez regarder Squid Game en cor&#xE9;en avec sous-titres anglais ?&#xD;
+D&#xE9;finissez la langue du premier &#xE9;pisode et n'y pensez plus pour le reste de la s&#xE9;rie.&#xD;
+&#xD;
+Vous avez plusieurs utilisateurs g&#xE9;r&#xE9;s et partag&#xE9;s avec des pr&#xE9;f&#xE9;rences diff&#xE9;rentes ? &#xD;
+Les pistes appropri&#xE9;es seront s&#xE9;lectionn&#xE9;es automatiquement et ind&#xE9;pendamment pour chaque utilisateur.</Overview>
   <Category>Tools: MediaApp:Other MediaApp:Video MediaServer:Video</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/superboki/ressources/main/plex-auto-languages/plex_auto_languages.png</Icon>
-  <ExtraParams></ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1638501192</DateInstalled>
+  <DateInstalled>1653727344</DateInstalled>
   <DonateText>Pour soutenir la chaîne</DonateText>
   <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
-  <Description>Cette application vous permet d'avoir une expérience de type Netflix en mettant à jour automatiquement la langue de vos épisodes Plex TV Show en fonction de la langue actuelle que vous utilisez sans perturber vos préférences linguistiques existantes  .&#xD;
-&#xD;
-Vous voulez regarder Squid Game en coréen avec sous-titres anglais ? &#xD;
-Définissez la langue du premier épisode et n'y pensez plus pour le reste de la série.&#xD;</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish/>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/plex-auto-languages</HostDir>
-      <ContainerDir>/app/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-      <Variable>
-      <Name>TZ</Name>
-      <Value>Europe/Paris</Value>
-    </Variable>
-    <Environment/>
-  <Labels/>
-  <Config Name="Appdata" Target="/app/config" Default="/mnt/user/appdata/plex-auto-languages" Mode="rw" Description="Chemin du container : /app/config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/plex-auto-languages</Config>
+  <Requires/>
+  <Config Name="PLEX_URL" Target="PLEX_URL" Default="http://plex:32400" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://plex:32400</Config>
+  <Config Name="PLEX_TOKEN" Target="PLEX_TOKEN" Default="VOTRE_TOKEN_PLEX" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">VOTRE_TOKEN_PLEX</Config>
+  <Config Name="Time Zone" Target="TZ" Default="Europe/Paris" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">Europe/Paris</Config>
+  <Config Name="Chemin vers la conf dans AppData" Target="/config" Default="/mnt/user/appdata/Plex-Auto-Languages/config" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/mnt/user/appdata/Plex-Auto-Languages/config</Config>
 </Container>
