@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>rutorrent-crazymax [FR]</Name>
+  <Name>rutorrent-crazymax</Name>
   <Repository>crazymax/rtorrent-rutorrent</Repository>
   <Registry>https://github.com/crazy-max/docker-rtorrent-rutorrent</Registry>
   <Network>bridge</Network>
