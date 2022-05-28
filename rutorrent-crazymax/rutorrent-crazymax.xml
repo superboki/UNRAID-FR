@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>rutorrent-crazymax</Name>
+  <Name>rutorrent-crazymax [FR]</Name>
   <Repository>crazymax/rtorrent-rutorrent</Repository>
   <Registry>https://github.com/crazy-max/docker-rtorrent-rutorrent</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://discord.gg/CrK5eteSjK</Support>
+  <Project>https://github.com/crazy-max/docker-rtorrent-rutorrent</Project>
   <Overview>Si vous &#xEA;tes sujets au bug connu de la 6.10.1 concernant les droits utilisateurs :&#xD;
 Apr&#xE8;s l'installation du container :&#xD;
 &#xD;
@@ -32,9 +32,10 @@ htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#
 &#xD;
 - Remplacer  par votre pseudo et  votre mot de passe &#xD;
 - Red&#xE9;marrer le container&#xD;
+    
 &#xD;
 </Overview>
-  <Category/>
+  <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/superboki/ressources/blob/main/rutorrent-crazymax/rutorrent-crazymax.jpg?raw=true</Icon>
