@@ -38,7 +38,7 @@ htpasswd -Bbn  pseudo mot_de_passe &amp;gt;&amp;gt; /passwd/rutorrent.htpasswd&#
   <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/superboki/ressources/blob/main/rutorrent-crazymax/rutorrent-crazymax.jpg?raw=true</Icon>
+  <Icon>https://github.com/superboki/ressources/blob/main/rutorrent-crazymax/rutorrent-crazymax.png?raw=true</Icon>
   <ExtraParams>--ulimit nproc=65535 --ulimit nofile=32000:40000</ExtraParams>
   <PostArgs/>
   <CPUset/>
