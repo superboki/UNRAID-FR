@@ -2,14 +2,15 @@
 <Container version="2">
   <Name>plex-auto-languages</Name>
   <Repository>remirigal/plex-auto-languages</Repository>
-  <Registry>https://github.com/remirigal/plex-auto-languages</Registry>
+  <Registry>https://hub.docker.com/r/remirigal/plex-auto-languages</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/CrK5eteSjK</Support>
-  <Project>https://github.com/remirigal/plex-auto-languages<Project/>
-  <Overview>Mes vid&#xE9;os sur unraid disponibles sur : https://www.youtube.com/superboki&#xD;
+  <Support>https://www.youtube.com/Superboki/?sub_confirmation=1</Support>
+  <Project>https://github.com/remirigal/plex-auto-languages</Project>
+  <Overview>&#xD;
+Mes vid&#xE9;os sur unraid disponibles sur : https://www.youtube.com/superboki&#xD;
 &#xD;
 Cette application vous permet d'avoir une exp&#xE9;rience de type Netflix en mettant &#xE0; jour automatiquement la langue de vos &#xE9;pisodes Plex TV Show en fonction de la langue actuelle que vous utilisez sans perturber vos pr&#xE9;f&#xE9;rences linguistiques existantes &#xD;
 &#xD;
