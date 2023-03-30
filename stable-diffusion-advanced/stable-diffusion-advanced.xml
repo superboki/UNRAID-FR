@@ -22,7 +22,7 @@ A big thank you to Holaf for this compiled version of Stable Diffusion which all
   <Category/>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/superboki/ressources/blob/c24391b812c2972840c96c4157de724155094360/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
+  <Icon>https://github.com/superboki/ressources/blob/6e39a0d104bf2c2de286743bf60b46134c3f043d/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
   <ExtraParams>--runtime=nvidia</ExtraParams>
   <PostArgs/>
   <CPUset/>
