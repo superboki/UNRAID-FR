@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>stable-diffusion</Name>
+  <Repository>holaflenain/stable-diffusion:latest</Repository>
+  <Registry>https://hub.docker.com/r/holaflenain/stable-diffusion</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://www.youtube.com/Superboki/?sub_confirmation=1</Support>
+  <Project>https://discord.gg/VWAG7rZ</Project>
+  <Overview>Un grand Merci &#xE0; Holaf pour cette version compil&#xE9;e de Stable Diffusion qui permet de b&#xE9;n&#xE9;ficier de l'inerface de votre choix facilement pour profiter pleinement de la puissance de cette intelligence artifielle.&#xD;
+Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'au moins 6GB de VRAM.&#xD;
+&#xD;
+ /! lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!&#xD;
+&#xD;
+-----------------------------------------------------------------------------------------------------------------&#xD;
+&#xD;
+A big thank you to Holaf for this compiled version of Stable Diffusion which allows you to easily benefit from the interface of your choice and fully enjoy the power of this artificial intelligence. Please note that to work properly, it is recommended to have an Nvidia GPU with at least 6GB of VRAM.&#xD;
+&#xD;
+/! During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:9000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/superboki/ressources/blob/f14620eb3b7b499ae38aed7938a933d818b2f5b0/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
+  <ExtraParams>--runtime=nvidia</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1680208561</DateInstalled>
+  <DonateText>Pour soutenir la chaîne</DonateText>
+  <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
+  <Requires/>
+  <Config Name="Stable-Diffusion UI Path" Target="/opt/stable-diffusion" Default="/mnt/ssd/appdata-ssd/stable-diffusion/" Mode="rw" Description="Le chemin o&#xF9; vous souhaitez deployer stable diffusion / The path where you want to deploy Stable Diffusion" Type="Path" Display="always" Required="false" Mask="false">/mnt/docker_vm/appdata/stable-diffusion-advanced</Config>
+  <Config Name="Container Port 1" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9004</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="all" Mode="" Description="Par d&#xE9;faut all, si vous avez plusieurs GPU NVIDIA dans votre ordinateur, il faudra le selectionner. par exemple entrer en valeur " Type="Variable" Display="always" Required="false" Mask="false">all</Config>
+  <Config Name="Outputs" Target="/outputs" Default="/mnt/user/appdata/easy-diffusion/outputs" Mode="rw" Description="l'emplacement o&#xF9; vous pourrez sauvegarder les images g&#xE9;n&#xE9;r&#xE9;es, par d&#xE9;faut un dossier public a &#xE9;t&#xE9; choisi mais vous &#xEA;tre libre de changer / The location where you can save the generated images, by default a public folder has been selected but you are free to change it" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/public/temp/outputs</Config>
+  <Config Name="WEBUI_VERSION" Target="WEBUI_VERSION" Default="easy-diffusion" Mode="" Description="01 : Easy Diffusion web UI&#13;&#10;02 : Stable Diffusion web UI&#13;&#10;03 : Invoke AI web UI &#13;&#10;&#13;&#10;Vous faites ici le choix de l'interface que va utiliser stable diffusion.&#13;&#10;----------------------------&#13;&#10;&#13;&#10;ou are choosing here the interface that Stable Diffusion will use.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">01</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="c'est la valeur de GUID de votre GPU.&#13;&#10;vous pouvez la trouver simplement en ouvrant le plugin NVIDIA-DRIVER qui aura &#xE9;t&#xE9; pr&#xE9;c&#xE9;dement install&#xE9;. / his is the GUID value of your GPU. You can find it simply by opening the NVIDIA-DRIVER plugin that has been previously installed." Type="Variable" Display="always" Required="false" Mask="false">GPU-6865ce2d-ad26-1481-da84-e46b17f5db53</Config>
+</Container>
