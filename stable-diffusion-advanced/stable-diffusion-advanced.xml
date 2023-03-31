@@ -19,7 +19,7 @@ Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'
 A big thank you to Holaf for this compiled version of Stable Diffusion which allows you to easily benefit from the interface of your choice and fully enjoy the power of this artificial intelligence. Please note that to work properly, it is recommended to have an Nvidia GPU with at least 6GB of VRAM.&#xD;
 &#xD;
 /! During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!</Overview>
-  <Category/>
+  <Category>Tools: Status:Stable MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/superboki/ressources/blob/6e39a0d104bf2c2de286743bf60b46134c3f043d/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
