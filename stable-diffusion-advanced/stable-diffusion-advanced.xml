@@ -12,13 +12,13 @@
   <Overview>Un grand Merci &#xE0; Holaf pour cette version compil&#xE9;e de Stable Diffusion qui permet de b&#xE9;n&#xE9;ficier de l'interface de votre choix facilement pour profiter pleinement de la puissance de cette intelligence artifielle.&#xD;
 Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'au moins 6GB de VRAM.&#xD;
 &#xD;
- /! lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!&#xD;
+ /!\ lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!\&#xD;
 &#xD;
 -----------------------------------------------------------------------------------------------------------------&#xD;
 &#xD;
 A big thank you to Holaf for this compiled version of Stable Diffusion which allows you to easily benefit from the interface of your choice and fully enjoy the power of this artificial intelligence. Please note that to work properly, it is recommended to have an Nvidia GPU with at least 6GB of VRAM.&#xD;
 &#xD;
-/! During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!</Overview>
+/!\ During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!\</Overview>
   <Category>Tools: Status:Stable MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
   <TemplateURL/>
