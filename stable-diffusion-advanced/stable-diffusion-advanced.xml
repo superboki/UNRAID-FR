@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/holaflenain/stable-diffusion</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://www.youtube.com/Superboki/?sub_confirmation=1</Support>
   <Project>https://discord.gg/VWAG7rZ</Project>
