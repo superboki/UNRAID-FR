@@ -7,32 +7,33 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://www.youtube.com/Superboki/?sub_confirmation=1</Support>
-  <Project>https://discord.gg/CrK5eteSjK</Project>
-  <Overview>Un grand Merci &#xE0; Holaf pour cette version compil&#xE9;e de Stable Diffusion qui permet de b&#xE9;n&#xE9;ficier de l'interface de votre choix facilement pour profiter pleinement de la puissance de cette intelligence artifielle.&#xD;
-Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'au moins 6GB de VRAM.&#xD;
+  <Support>https://forums.unraid.net/topic/143645-support-stable-diffusion-advanced</Support>
+  <Project>https://hub.docker.com/r/holaflenain/stable-diffusion</Project>
+  <Overview>A big thank you to Holaf for this compiled version of Stable Diffusion which allows you to easily benefit from the interface of your choice and fully enjoy the power of this artificial intelligence. Please note that to work properly, it is recommended to have an Nvidia GPU with at least 6GB of VRAM.&#xD;
 &#xD;
- /!\ lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!\&#xD;
+/! During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!&#xD;
 &#xD;
 -----------------------------------------------------------------------------------------------------------------&#xD;
 &#xD;
-A big thank you to Holaf for this compiled version of Stable Diffusion which allows you to easily benefit from the interface of your choice and fully enjoy the power of this artificial intelligence. Please note that to work properly, it is recommended to have an Nvidia GPU with at least 6GB of VRAM.&#xD;
+Un grand Merci &#xE0; Holaf pour cette version compil&#xE9;e de Stable Diffusion qui permet de b&#xE9;n&#xE9;ficier de l'interface de votre choix facilement pour profiter pleinement de la puissance de cette intelligence artifielle.&#xD;
+Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'au moins 6GB de VRAM.&#xD;
 &#xD;
-/!\ During the first installation or when changing the Web-UI, the first startup may take some time to download/install the necessary packages /!\</Overview>
-  <Category>Tools: Status:Stable MediaApp:Other</Category>
+ /! lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!</Overview>
+  <Category>Tools:Utilities MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/superboki/UNRAID-FR/master/stable-diffusion-advanced/stable-diffusion-advanced.xml</TemplateURL>
   <Icon>https://github.com/superboki/ressources/blob/6e39a0d104bf2c2de286743bf60b46134c3f043d/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
   <ExtraParams>--runtime=nvidia</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1680208561</DateInstalled>
-  <DonateText>Pour soutenir la chaîne</DonateText>
+  <DateInstalled>1692353439</DateInstalled>
+  <DonateText>Pour soutenir la cha&#xEE;ne</DonateText>
   <DonateLink>https://fr.tipeee.com/superboki</DonateLink>
   <Requires/>
-  <Config Name="Stable-Diffusion UI Path" Target="/opt/stable-diffusion" Default="/mnt/user/appdata/stable-diffusion/" Mode="rw" Description="Le chemin o&#xF9; vous souhaitez deployer stable diffusion / The path where you want to deploy Stable Diffusion" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/stable-diffusion</Config>
-  <Config Name="Container Port 1" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
-  <Config Name="Outputs" Target="/outputs" Default="/mnt/user/appdata/stable-diffusion/outputs" Mode="rw" Description="l'emplacement o&#xF9; vous pourrez sauvegarder les images g&#xE9;n&#xE9;r&#xE9;es / The location where you can save the generated images" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/stable-diffusion/outputs</Config>
-  <Config Name="WEBUI_VERSION" Target="WEBUI_VERSION" Default="easy-diffusion" Mode="" Description="Choix de l'interface | Select your WebUI&#13;&#10;&#13;&#10;01 : Easy Diffusion web UI&#13;&#10;02 : Stable Diffusion web UI&#13;&#10;03 : Invoke AI web UI &#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">01</Config>
+  <Config Name="Stable-Diffusion UI Path" Target="/opt/stable-diffusion" Default="/mnt/user/appdata/stable-diffusion/" Mode="rw" Description="The path where you want to deploy Stable Diffusion | Le chemin o&#xF9; vous souhaitez deployer stable diffusion" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Web UI PORT" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
+  <Config Name="Outputs" Target="/outputs" Default="/mnt/user/appdata/stable-diffusion/outputs" Mode="rw" Description="The location where you can save the generated images | l'emplacement o&#xF9; vous pourrez sauvegarder les images g&#xE9;n&#xE9;r&#xE9;es" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="WEBUI_VERSION" Target="WEBUI_VERSION" Default="easy-diffusion" Mode="" Description="You can choose between the following:&#13;&#10;&#13;&#10;01 - Easy Diffusion :&#13;&#10;The easiest way to install and use Stable Diffusion on your computer. &#13;&#10;&#13;&#10;02 - Automatic1111 :&#13;&#10;A browser interface based on Gradio library for Stable Diffusion&#13;&#10;&#13;&#10;03 - InvokeAI :&#13;&#10;InvokeAI is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, supports terminal use through a CLI, and serves as the foundation for multiple commercial products&#13;&#10;&#13;&#10;04 - SD.Next :&#13;&#10;This project started as a fork from Automatic1111 WebUI and it grew significantly since then, but although it diverged considerably, any substantial features to original work is ported as well &#13;&#10;&#13;&#10;05 - ComfyUI :&#13;&#10;A powerful and modular stable diffusion GUI and backend" Type="Variable" Display="always" Required="false" Mask="false">01</Config>
   <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="c'est la valeur de GUID de votre GPU.&#13;&#10;vous pouvez la trouver simplement en ouvrant le plugin NVIDIA-DRIVER qui aura &#xE9;t&#xE9; pr&#xE9;c&#xE9;dement install&#xE9;. / his is the GUID value of your GPU. You can find it simply by opening the NVIDIA-DRIVER plugin that has been previously installed." Type="Variable" Display="always" Required="false" Mask="false">GPU-xxxxxxx-xxxx-xxxx-xxxx-xxxxxxx</Config>
+  <Config Name="Cache" Target="/cache" Default="/mnt/user/appdata/stable-diffusion/cache" Mode="rw" Description="All the downloads done by pip (torch, transformers, etc.) can take up a lot of space. You can remap the folder elsewhere here to avoid saturating your appdata (for example)" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
