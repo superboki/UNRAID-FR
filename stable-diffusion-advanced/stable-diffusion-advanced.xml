@@ -19,7 +19,7 @@ Un grand Merci &#xE0; Holaf pour cette version compil&#xE9;e de Stable Diffusion
 Attention, pour bien fonctionner il est recommand&#xE9; d'avoir un GPU Nvidia d'au moins 6GB de VRAM.&#xD;
 &#xD;
  /! lors de la premiere installation ou lors d'un changement de Web-ui le premier d&#xE9;marrage peut prendre du temps le temps de t&#xE9;l&#xE9;charger/installer les paquets n&#xE9;cessaires /!</Overview>
-  <Category>AI:Tools:Utilities MediaApp:Other</Category>
+  <Category>AI: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:9000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/superboki/UNRAID-FR/master/stable-diffusion-advanced/stable-diffusion-advanced.xml</TemplateURL>
   <Icon>https://github.com/superboki/ressources/blob/6e39a0d104bf2c2de286743bf60b46134c3f043d/stable-diffusion-advanced/stable-diffusion-advanced.png?raw=true</Icon>
