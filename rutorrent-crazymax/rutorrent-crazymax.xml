@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/CrK5eteSjK</Support>
+  <Support>https://forums.unraid.net/topic/89502-support-a75g-repo/page/14/#comment-1023367</Support>
   <Project>https://github.com/crazy-max/docker-rtorrent-rutorrent</Project>
   <Overview>Si vous &#xEA;tes sujets au bug connu de la 6.10.1 concernant les droits utilisateurs :&#xD;
 Apr&#xE8;s l'installation du container :&#xD;
